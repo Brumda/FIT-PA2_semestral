@@ -1,0 +1,9 @@
+{
+  "maxRound": 50,
+  "baseLives": 100,
+  "towersSpawnInterval": 5,
+  "startingMoney": 100,
+  "moneyPerRound": 50,
+  "playerInputRound": 5,
+  "towerOrder" : [0, 1, 2, 3]
+}

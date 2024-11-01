@@ -1,0 +1,29 @@
+{
+    "warrior": {
+        "price" : 30,
+        "symbol": "W",
+        "lives": 25,
+        "damage" : 10,
+        "speed": 2,
+        "armor" : 2,
+        "climbs" : false
+    },
+    "scout": {
+        "price" : 20,
+        "symbol": "S",
+        "lives": 10,
+        "damage" : 5,
+        "speed": 3,
+        "armor" : 1,
+        "climbs" : true
+    },
+    "tank": {
+        "price" : 50,
+        "symbol": "T",
+        "lives": 80,
+        "damage" : 3,
+        "speed": 2,
+        "armor" : 4,
+        "climbs" : false
+    }
+}

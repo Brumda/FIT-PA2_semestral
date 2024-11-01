@@ -1,0 +1,14 @@
+{
+  "burn": {
+    "time": 3,
+    "damage": 2
+  },
+  "freeze": {
+    "time": 3,
+    "slow": 2
+  },
+  "weakness": {
+    "time": 3,
+    "armorCorruption": 2
+  }
+}

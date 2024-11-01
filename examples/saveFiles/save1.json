@@ -1,0 +1,12 @@
+{
+  "attackers": null,
+  "game": {
+    "lastTower": 0,
+    "lives": 100,
+    "map": "./examples/progtestMap.txt",
+    "playerMoney": 150,
+    "round": 0,
+    "spent": 0
+  },
+  "towers": null
+}

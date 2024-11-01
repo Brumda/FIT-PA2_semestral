@@ -1,0 +1,127 @@
+{
+  "attackers": {
+    "attacker0": {
+      "armor": 2,
+      "coordinates": [
+        4,
+        42
+      ],
+      "lives": 26,
+      "name": "warrior",
+      "negEffects": null,
+      "posEffects": null,
+      "speed": 2
+    },
+    "attacker1": {
+      "armor": 1,
+      "coordinates": [
+        1,
+        43
+      ],
+      "lives": 10,
+      "name": "scout",
+      "negEffects": null,
+      "posEffects": null,
+      "speed": 3
+    },
+    "attacker2": {
+      "armor": 2,
+      "coordinates": [
+        4,
+        14
+      ],
+      "lives": 25,
+      "name": "warrior",
+      "negEffects": null,
+      "posEffects": {
+        "effect0": {
+          "applied": false,
+          "cooldown": 2,
+          "name": "healing"
+        }
+      },
+      "speed": 2
+    },
+    "attacker3": {
+      "armor": 7,
+      "coordinates": [
+        2,
+        28
+      ],
+      "lives": 80,
+      "name": "tank",
+      "negEffects": null,
+      "posEffects": {
+        "effect0": {
+          "applied": true,
+          "cooldown": 2,
+          "name": "speedBoost"
+        },
+        "effect1": {
+          "applied": true,
+          "cooldown": 2,
+          "name": "armorBuff"
+        }
+      },
+      "speed": 5
+    }
+  },
+  "game": {
+    "lastTower": 2,
+    "lives": 1,
+    "map": "./examples/progtestMap.txt",
+    "playerMoney": 285,
+    "round": 30,
+    "spent": 215
+  },
+  "towers": {
+    "tower0": {
+      "attackCoolDown": 2,
+      "coordinates": [
+        0,
+        6
+      ],
+      "name": "basic"
+    },
+    "tower1": {
+      "attackCoolDown": 1,
+      "coordinates": [
+        2,
+        16
+      ],
+      "name": "corrupting"
+    },
+    "tower2": {
+      "attackCoolDown": 4,
+      "coordinates": [
+        4,
+        31
+      ],
+      "name": "fire"
+    },
+    "tower3": {
+      "attackCoolDown": 0,
+      "coordinates": [
+        5,
+        39
+      ],
+      "name": "ice"
+    },
+    "tower4": {
+      "attackCoolDown": 2,
+      "coordinates": [
+        4,
+        10
+      ],
+      "name": "basic"
+    },
+    "tower5": {
+      "attackCoolDown": 1,
+      "coordinates": [
+        5,
+        19
+      ],
+      "name": "corrupting"
+    }
+  }
+}

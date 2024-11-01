@@ -1,0 +1,17 @@
+{
+  "healing": {
+    "price" : 10,
+    "cooldown": 3,
+    "amount": 3
+  },
+  "speedBoost": {
+    "price" : 15,
+    "cooldown": 3,
+    "amount": 3
+  },
+  "armorBuff": {
+    "price" : 10,
+    "cooldown": 3,
+    "amount": 3
+  }
+}

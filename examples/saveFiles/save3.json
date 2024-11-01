@@ -1,0 +1,112 @@
+{
+  "attackers": {
+    "attacker0": {
+      "armor": 2,
+      "coordinates": [
+        4,
+        42
+      ],
+      "lives": 23,
+      "name": "warrior",
+      "negEffects": null,
+      "posEffects": {
+        "effect0": {
+          "applied": false,
+          "cooldown": 3,
+          "name": "healing"
+        }
+      },
+      "speed": 2
+    }
+  },
+  "game": {
+    "lastTower": 2,
+    "lives": 64,
+    "map": "./examples/progtestMap.txt",
+    "playerMoney": 390,
+    "round": 50,
+    "spent": 310
+  },
+  "towers": {
+    "tower0": {
+      "attackCoolDown": 2,
+      "coordinates": [
+        0,
+        6
+      ],
+      "name": "basic"
+    },
+    "tower1": {
+      "attackCoolDown": 1,
+      "coordinates": [
+        2,
+        16
+      ],
+      "name": "corrupting"
+    },
+    "tower2": {
+      "attackCoolDown": 2,
+      "coordinates": [
+        4,
+        31
+      ],
+      "name": "fire"
+    },
+    "tower3": {
+      "attackCoolDown": 0,
+      "coordinates": [
+        5,
+        39
+      ],
+      "name": "ice"
+    },
+    "tower4": {
+      "attackCoolDown": 2,
+      "coordinates": [
+        4,
+        10
+      ],
+      "name": "basic"
+    },
+    "tower5": {
+      "attackCoolDown": 1,
+      "coordinates": [
+        2,
+        16
+      ],
+      "name": "corrupting"
+    },
+    "tower6": {
+      "attackCoolDown": 4,
+      "coordinates": [
+        4,
+        31
+      ],
+      "name": "fire"
+    },
+    "tower7": {
+      "attackCoolDown": 0,
+      "coordinates": [
+        5,
+        39
+      ],
+      "name": "ice"
+    },
+    "tower8": {
+      "attackCoolDown": 2,
+      "coordinates": [
+        8,
+        42
+      ],
+      "name": "basic"
+    },
+    "tower9": {
+      "attackCoolDown": 1,
+      "coordinates": [
+        8,
+        20
+      ],
+      "name": "corrupting"
+    }
+  }
+}
